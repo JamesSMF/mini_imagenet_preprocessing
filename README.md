@@ -61,12 +61,13 @@ Besides saving the three `pkl` files to `mini_imagenet` directory, create a new 
 
 
 ## Run the program
+Before you run the program, check if all the packages/modules in `requirements.txt` files have been installed properly. If not, you may install with `pip install package`.
 
 1.  Open the `unpack.py` file and make changes to paths to fit your devices.
 2.  Run `python3 unpack.py` in python3 environment
 3.  Go to `temp` folder and run `zip images.zip ./*`
 4.  Run `mv images.zip ../datasets`
 5.  You can remove the `temp` directory now to save storage space
-6.  Go to `datasets` folder and run the python program `create_dataset_miniImagenet.py --data-dir /path/to/current/dir/ --output-dir /path/to/save/the/final/preprocessed/files/`
+6.  Go to `datasets` folder and run the python program `python3 create_dataset_miniImagenet.py --data-dir /path/to/current/dir/ --output-dir /path/to/save/the/final/preprocessed/files/`
 7.  It might take some time, like... forever
 8.  Done
