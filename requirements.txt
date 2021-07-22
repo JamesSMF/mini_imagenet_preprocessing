@@ -1,0 +1,9 @@
+pickle
+pandas
+PIL
+tqdm
+argparse
+csv
+zipfile
+numpy
+scipy
